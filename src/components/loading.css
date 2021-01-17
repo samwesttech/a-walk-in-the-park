@@ -1,0 +1,32 @@
+svg {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 60px;
+  padding: auto;
+  width: 258px;
+  height: 258px;
+}
+
+.tree {
+  fill: #2bae66ff;
+}
+
+.circle-mask {
+  transform-origin: 50% 90%;
+  animation: scale 5s infinite ease-out;
+}
+
+@keyframes scale {
+  0%,
+  100% {
+    transform: scale(0);
+  }
+  7%,
+  90% {
+    transform: scale(0.4);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
