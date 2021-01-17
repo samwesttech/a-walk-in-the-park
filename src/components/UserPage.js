@@ -112,10 +112,10 @@ const UserPage = (props) => {
             <p>{userProfile.bio}</p>
           </div>
           <div className='line'>
-          <Link to={`/inbox/${userProfile.username}`}>
-            {" "}
+          {/* <Link to={`/inbox/${userProfile.username}`}>
+            {" "} */}
             <button className='message'>Message</button>
-          </Link>
+          {/* </Link> */}
           </div>
           
 
