@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import './Map.css';
 import {GoogleApiWrapper} from 'google-maps-react';
-import Key from "../../ignorethisfile";
+import Key from "../../ignorethisfileCopy";
 
 const mapStyles = {
   // position: "relative",
